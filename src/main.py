@@ -1,4 +1,3 @@
-from utils import warn, read_and_split_text
 import faiss
 
 

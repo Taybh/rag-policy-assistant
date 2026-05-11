@@ -51,7 +51,7 @@ class DPRRetriever:
 
             embeddings.append(outputs.pooler_output)
 
-        embeddings = torch.cat(embeddings).detach().numpy(). # Convert list of numpy arrays into a single numpy array
+        embeddings = torch.cat(embeddings).detach().numpy() # Convert list of numpy arrays into a single numpy array
         return embeddings.astype("float32")
     
     def build_index(self, paragraphs):
