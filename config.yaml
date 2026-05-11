@@ -1,0 +1,15 @@
+data:
+  policy_file: data/companyPolicies.txt
+
+models:
+  context_encoder: facebook/dpr-ctx_encoder-single-nq-base
+  question_encoder: facebook/dpr-question_encoder-single-nq-base
+  generator: openai-community/gpt2
+
+retrieval:
+  top_k: 5
+
+tokenization:
+  max_context_length: 256
+  max_generation_input_length: 1024
+  max_new_tokens: 80

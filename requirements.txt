@@ -1,0 +1,11 @@
+time 
+wget 
+transformers 
+datasets 
+faiss-cpu  
+matplotlib 
+scikit-learn
+numpy
+pyyaml
+torch==2.8.0
+
